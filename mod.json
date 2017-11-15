@@ -1,0 +1,6 @@
+{
+  "name": "ctrip-list-menu",
+  "version": "0.0.1",
+  "apiDependencies": ["list-menu"]
+}
+
