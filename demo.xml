@@ -14,18 +14,22 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <list-menu>
-        <i>
-            <title>
-                strong notebook
-            </title>
-            <subtitle>
-                watch
-            </subtitle>
-            <href>
-                //a.oxm1.cc/img/fox.jpg
-            </href>
-        </i>
-    </list-menu>
+        <list-menu>
+            <i>
+                <title>附近美食</title>
+                <subtitle></subtitle>
+                <href>#food</href>
+            </i>
+            <i>
+                <title>附近酒店</title>
+                <subtitle></subtitle>
+                <href>#hotel</href>
+            </i>
+            <i>
+                <title>附近景点</title>
+                <subtitle></subtitle>
+                <href>#spot</href>
+            </i>
+        </list-menu>
     </data>
 </root>

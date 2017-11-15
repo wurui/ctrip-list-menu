@@ -2,9 +2,15 @@
     <xsl:template match="/root" name="wurui.ctrip-list-menu">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-ctrip-list-menu" ox-mod="ctrip-list-menu">
-            <h1>
-                This is mod ctrip-list-menu;
-            </h1>
+            <ul>
+                <xsl:for-each select="data/list-menu/i">
+                	<li>
+                		<a href="{href}">
+                			<xsl:value-of select="title"/>
+                		</a>
+                	</li>
+                </xsl:for-each>
+            </ul>
         </div>
     </xsl:template>
 </xsl:stylesheet>
