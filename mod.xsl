@@ -3,7 +3,7 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-ctrip-list-menu" ox-mod="ctrip-list-menu">
             <ul>
-                <xsl:for-each select="data/list-menu/i">
+                <xsl:for-each select="data/ui-entry/i">
                 	<li>
                 		<a href="{href}">
                 			<xsl:value-of select="title"/>
